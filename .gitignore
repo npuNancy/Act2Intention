@@ -1,3 +1,8 @@
+data/trajectory/test/*.json
+data/trajectory/train/*.json
+data/datasets/stage2/*.json
+data/datasets/stage3/*.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
