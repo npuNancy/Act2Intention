@@ -17,3 +17,5 @@ swanlab==0.5.8
 matplotlib>=3.7.0
 scikit-learn
 nltk
+openai
+langchain
