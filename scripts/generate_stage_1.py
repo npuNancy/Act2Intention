@@ -132,6 +132,8 @@ file_path_test = [os.path.join(trajectory_dir_test, filename) for filename in fi
 res_conversations_list = []
 behavior_actions = defaultdict(int)
 for idx, file in enumerate(file_path_test):
+    if not file.endswith(".json"):
+        continue
     print(f"{'='*10}{idx}{'='*10}")
     with open(file, "r") as f:
         event_track_data = json.load(f)

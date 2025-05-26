@@ -96,7 +96,7 @@ def evaluate_prediction(item):
     return event_true, event_pred, behaviour_blue4
 
 
-def eval3(filepath):
+def eval_3(filepath):
     # read json file
     with open(filepath, "r", encoding="utf-8") as f:
         data = f.read().splitlines()
@@ -136,5 +136,4 @@ def eval3(filepath):
 
 classes = get_event_list()
 if __name__ == "__main__":
-
-    eval3("path/to/stage3_result.jsonl")
+    eval_3("path/to/stage3_result.jsonl")
