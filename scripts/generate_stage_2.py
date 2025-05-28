@@ -111,7 +111,7 @@ def generate_stage_2(
     dataset_list = []
     for trajectory in tqdm(get_trajectory(file_path_list)):
         dataset_gen = generate_dataset_json_format(trajectory, segment_length)
-        dataset_list.append(dataset_gen)
+        dataset_list.extend(dataset_gen)
 
     # save
     os.makedirs(save_dir, exist_ok=True)
