@@ -88,7 +88,6 @@ unzip data/trajectory/train/train.zip -d data/trajectory/train
 
 Generate the dataset for training and evaluation.
 ```bash
-python scripts/generate_stage_1.py
 python scripts/generate_stage_2.py
 python scripts/generate_stage_3.py
 ```
