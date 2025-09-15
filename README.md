@@ -3,8 +3,8 @@
 
 
 <p align="center">
-  📝<a href="#overview">Overview</a>  | 🤗
-  <a href="https://huggingface.co/datasets/BBKKBKK0nancy/Act2Intention">Data Release</a> 
+  📝<a href="#overview">Overview</a>  | 🛢️
+  <a href="https://www.modelscope.cn/datasets/AriaDeLuca/Act2Intention">Data Release</a> 
 </p>
 
 
